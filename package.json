@@ -34,6 +34,7 @@
   "module": "./dist/betterknown.mjs",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/betterknown.mjs",
       "require": "./dist/betterknown.umd.js"
     }

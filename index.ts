@@ -46,7 +46,7 @@ export interface WktUserOptions {
    * but if you convert `null` back to WKT, it won't be represented
    * as anything, because there's no indication of its geometry type.
    */
-  emptyAsNull?: true;
+  emptyAsNull?: boolean;
 
   /**
    * An optional method for reprojecting EWKT strings.
